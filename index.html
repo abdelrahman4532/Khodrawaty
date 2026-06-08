@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>خضرواتي | متجر الأغذية العضوية الفاخرة</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" href="logo.png" type="image/png" />
+  </head>
+  <body>
+    <nav class="main-navbar">
+      <div class="logo">
+        <img
+          src="logo.png"
+          alt="لوجو خضرواتي"
+          class="logo-img"
+          onerror="
+            this.style.display = 'none';
+            this.nextElementSibling.style.display = 'block';
+          "
+        />
+        <span
+          class="logo-fallback"
+          style="
+            display: none;
+            font-weight: 700;
+            color: #45ba4c;
+            font-size: 22px;
+          "
+          >خضرواتي</span
+        >
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" class="active">الرئيسية</a></li>
+        <li><a href="#">المنتجات</a></li>
+        <li><a href="#">الفئات</a></li>
+        <li><a href="#">العروض</a></li>
+        <li><a href="#">المدونة</a></li>
+      </ul>
+      <div class="nav-actions">
+        <i class="fas fa-search icon-btn"></i>
+        <a href="#" class="cta-nav-btn">تسوق الآن</a>
+      </div>
+    </nav>
+
+    <header class="hero-section">
+      <div class="hero-container">
+        <div class="hero-text">
+          <span class="badge">منتجات عضوية 100%</span>
+          <h1>اكتشف طعم الطبيعة <br /><span>في كل قمة</span></h1>
+          <p>
+            نقدم لك تشكيلة فاخرة من الخضروات والفواكه الطازجة المنتقاة بعناية من
+            مزارعنا الحيوية مباشرة إلى مائدتك، لضمان صحة ونقاء عائلتك.
+          </p>
+          <div class="hero-btns">
+            <a href="#" class="btn-primary"
+              >اكتشف منتجاتنا <i class="fas fa-arrow-left"></i
+            ></a>
+          </div>
+        </div>
+        <div class="hero-image-container">
+          <img
+            src="https://images.unsplash.com/photo-1610348725531-843dff563e2c?q=80&w=1200&auto=format&fit=crop"
+            alt="خضروات طازجة فاخرة"
+            class="hero-main-img"
+          />
+        </div>
+      </div>
+    </header>
+
+    <section class="split-banners">
+      <div class="banner-card light-orange">
+        <div class="banner-content">
+          <h3>وجبات خفيفة صحية</h3>
+          <p>
+            تشكيلة المكسرات والفواكه المجففة الفاخرة لتقدم لك طاقة ونشاط طوال
+            اليوم.
+          </p>
+          <a href="#" class="banner-link"
+            >تسوق الآن <i class="fas fa-chevron-left"></i
+          ></a>
+        </div>
+        <img src="nadine-primeau--ftWfohtjNw-unsplash.jpg" alt="مكسرات صحية" />
+      </div>
+      <div class="banner-card light-green">
+        <div class="banner-content">
+          <h3>عصائر حيوية طبيعية</h3>
+          <p>
+            عصائر طازجة 100% معصورة على البارد خالية من السكر والمواد الحافظة.
+          </p>
+          <a href="#" class="banner-link"
+            >اكتشف النكهات <i class="fas fa-chevron-left"></i
+          ></a>
+        </div>
+        <img src="jona-novak-A6c4cUoFrHg-unsplash.jpg" alt="عصائر طبيعية" />
+      </div>
+    </section>
+
+    <section class="products-layout-section">
+      <h2 class="section-title">تسوق حسب الفئة</h2>
+
+      <div class="layout-grid">
+        <div class="categories-grid-container">
+          <div class="category-item-card">
+            <div class="img-wrapper">
+              <img src="josefin-HtCgLIDy-2U-unsplash.jpg" alt="خضروات ورقية" />
+            </div>
+            <h4>الورقيات الطازجة</h4>
+          </div>
+          <div class="category-item-card">
+            <div class="img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?q=80&w=300&auto=format&fit=crop"
+                alt="فواكه"
+              />
+            </div>
+            <h4>الحمضيات والفواكه</h4>
+          </div>
+          <div class="category-item-card">
+            <div class="img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1590779033100-9f60a05a013d?q=80&w=300&auto=format&fit=crop"
+                alt="جذور"
+              />
+            </div>
+            <h4>الجذور والدرنيات</h4>
+          </div>
+          <div class="category-item-card">
+            <div class="img-wrapper">
+              <img src="cody-chan-TdDtTu2rv4s-unsplash.jpg" alt="توتيات" />
+            </div>
+            <h4>التوتيات العضوية</h4>
+          </div>
+        </div>
+
+        <div class="sidebar-list-card">
+          <h3>أكثر المنتجات طلباً</h3>
+          <div class="list-item">
+            <img
+              src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?q=80&w=150&auto=format&fit=crop"
+              alt="تفاح أحمر"
+            />
+            <div class="item-details">
+              <h5>تفاح رويال غالا عضوي</h5>
+              <p>كيلو غرام <span>45 ج.م</span></p>
+            </div>
+          </div>
+          <div class="list-item">
+            <img
+              src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?q=80&w=150&auto=format&fit=crop"
+              alt="موز طازج"
+            />
+            <div class="item-details">
+              <h5>موز بلدي طبيعي ذو جودة عالية</h5>
+              <p>كيلو غرام <span>25 ج.م</span></p>
+            </div>
+          </div>
+          <div class="list-item">
+            <img
+              src="harshal-s-hirve-2GiRcLP_jkI-unsplash.jpg"
+              alt="خيار طازج"
+            />
+            <div class="item-details">
+              <h5>خيار هيدروبرونيك نقي</h5>
+              <p>كيلو غرام <span>30 ج.م</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase-section">
+      <h2 class="section-title">وصلنا حديثاً</h2>
+      <div class="showcase-grid">
+        <div class="product-card-premium">
+          <img src="image copy 3.png" alt="حبوب كاملة" />
+          <h4>كينوا عضوية فاخرة</h4>
+          <p class="desc">غنية بالألياف والبروتينات الطبيعية</p>
+          <div class="card-footer">
+            <span class="price">120 ج.م</span>
+            <button class="add-to-cart-btn">
+              <i class="fas fa-shopping-basket"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-card-premium">
+          <img src="image copy 2.png" alt="عدس" />
+          <h4>عدس أحمر بلدي فخم</h4>
+          <p class="desc">منقى بعناية وخالٍ من الشوائب</p>
+          <div class="card-footer">
+            <span class="price">55 ج.م</span>
+            <button class="add-to-cart-btn">
+              <i class="fas fa-shopping-basket"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-card-premium">
+          <img src="image copy.png" alt="بهارات" />
+          <h4>حبوب كمون هندي أصلي</h4>
+          <p class="desc">رائحة نفاذة ونكهة غنية أصلية</p>
+          <div class="card-footer">
+            <span class="price">90 ج.م</span>
+            <button class="add-to-cart-btn">
+              <i class="fas fa-shopping-basket"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="premium-footer">
+      <div class="footer-container">
+        <div class="footer-column about-col">
+          <h4>خضرواتي</h4>
+          <p>
+            نهتم بتقديم أعلى معايير الجودة والنقاء في المنتجات الغذائية العضوية
+            لضمان حياة صحية ومستدامة لكل منزل.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>روابط سريعة</h4>
+          <ul>
+            <li><a href="#">من نحن</a></li>
+            <li><a href="#">المزارع وشريك النجاح</a></li>
+            <li><a href="#">المدونة الصحية</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>الدعم والمساعدة</h4>
+          <ul>
+            <li><a href="#">سياسة التوصيل المبرّد</a></li>
+            <li><a href="#">الشروط والأحكام</a></li>
+            <li><a href="#">تواصل معنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-column newsletter-col">
+          <h4>اشترك في نشرتنا</h4>
+          <p>احصل على عروض حصرية ووصفات صحية أسبوعية.</p>
+          <div class="search-box-footer">
+            <input type="email" placeholder="بريدك الإلكتروني..." />
+            <button>اشترك</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          جميع الحقوق محفوظة &copy; 2026 | تم التطوير وشق الطريق بكل شغف بواسطة
+          عبد الرحمن
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
